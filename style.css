@@ -1,8 +1,38 @@
-.body {
+#body {
     background-color: gray;
 }
 
-.container{
+#container{
     background-color: white;
+    display: flex;
     
 }
+
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background: lime;
+  }
+.thumbnail {
+    margin-top: 60px;
+    width: 100px;
+    height: 100px;
+    background: lime;
+    position: relative;
+  }
+  
+  .title {
+    display: none;
+    position: relative;
+    background: grey;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    top: -50px;
+  }
+  
+  .thumbnail:hover .title {
+    display: block;
+  }
